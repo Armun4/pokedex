@@ -27,10 +27,10 @@
           },
     methods: {
        async getPokemons() {
-        pokeServices.getAll();
-        this.pokemons = res.data;
-      },
+        pokeServices.getAll().then(response) => {
+          this.pokemons = response.data},
 
+       }
       // getId(event) {
       //   axios
       //     .get(`http://127.0.0.1:8000/api/events/${event.id}/subscribers`)
@@ -41,9 +41,7 @@
       //     });
       // },
 
-      toggleSawNewPkmn() {
-        this.isShown = !this.isShown;
-      },
+      
     }
   }
 </script>
