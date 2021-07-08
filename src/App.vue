@@ -1,22 +1,24 @@
 <template>
   <div id="nav">
     
- 
-  </div>
   <router-view/>
+  </div>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif, VT323;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 200%;
 }
 
 #nav {
   padding: 30px;
+  background-color: rgb(243, 127, 127) ;
 }
 
 #nav a {

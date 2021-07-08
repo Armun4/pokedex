@@ -3,54 +3,54 @@
     {
       "id":1 ,
       "name": "Bulbasaur",
-      "sprite":"../assets/red-blue/1.png",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/1.png?raw=true",
       "cactched": false
     },
     {
       "id":2 ,
       "name": "Yvysaur",
-      "sprite":"src/assets/red-blue/2.png",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/2.png?raw=true",
       "cactched": false
     },
     {
       "id": 3,
       "name": "Venusaur",
-      "sprite":"src/assets/red-blue/3.png",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/3.png?raw=true",
       "cactched": false
     }, {
       "id": 4,
       "name": "Charmander",
-      "sprite":"src/assets/red-blue/4.png",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/4.png?raw=true",
       "cactched": false
     }, {
       "id": 5,
       "name": "Charmeleon",
-      "sprite":"src/assets/red-blue/5.png",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/5.png?raw=true",
       "cactched": false
     }, {
       "id": 6,
-      "name": "Squirtle",
-      "sprite":"src/assets/red-blue/6.png",
+      "name": "Charmander",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/6.png?raw=true",
       "cactched": false
     }, {
       "id": 7,
-      "name": "Wartortle",
-      "sprite":"src/assets/red-blue/7.png",
+      "name": "Squirtle",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/7.png?raw=true",
       "cactched": false
     }, {
       "id":8 ,
-      "name": "Blastoise",
-      "sprite":"src/assets/red-blue/8.png",
+      "name": "Wartortle",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/8.png?raw=true",
       "cactched": false
     }, {
       "id": 9,
-      "name": "Caterpie",
-      "sprite":"src/assets/red-blue/9.png",
+      "name": "Blastoise",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/9.png?raw=true",
       "cactched": false
     }, {
       "id":10 ,
       "name": "Metapod",
-      "sprite":"src/assets/red-blue/10.png",
+      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/10.png?raw=true",
       "cactched": false
     }
    
