@@ -1,17 +1,16 @@
 <template>
-  
-  
-  <div id="mainDiv" class="home" align="center" >
-  <div v-for="pokemon in pokemons" v-bind:key="pokemon">
-        <Card :pokemon="pokemon"/>
+  <div id="mainDiv" class="home" align="center">
+    <div v-for="pokemon in pokemons" v-bind:key="pokemon">
+      <Card :pokemon="pokemon" />
     </div>
   </div>
 </template>
 
 <script>
   // @ is an alias to /src
-  import axios from "axios";
-  import Card from '../components/Card.vue'
+
+  import Card from '../components/Card.vue';
+  import pokeServices from '../services/pokeServices'
   export default {
     name: "Home",
     components:{
@@ -27,10 +26,9 @@
 
           },
     methods: {
-      getPokemons() {
-        axios.get("http://localhost:3000/pokemons").then((response) => {
-          this.pokemons = response.data;
-        });
+       async getPokemons() {
+        let res = await pokeServices.getAll();
+        this.pokemons = res.data;
       },
 
       // getId(event) {
