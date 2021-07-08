@@ -10,7 +10,7 @@
   // @ is an alias to /src
 
   import Card from '../components/Card.vue';
-  import pokeServices from '../services/pokeServices'
+  import pokeServices from '../services/pokeServices.js'
   export default {
     name: "Home",
     components:{
@@ -27,7 +27,7 @@
           },
     methods: {
        async getPokemons() {
-        let res = await pokeServices.getAll();
+        pokeServices.getAll();
         this.pokemons = res.data;
       },
 
