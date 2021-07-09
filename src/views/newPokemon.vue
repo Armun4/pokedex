@@ -36,6 +36,9 @@
         },
       };
     },
+    updtated(){
+      savePokemon()
+    },
     watch:{
     $route (newPokemon, Home){
      this.$router.go()

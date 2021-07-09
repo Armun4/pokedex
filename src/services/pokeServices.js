@@ -13,6 +13,7 @@ export const pokeServices = {
  },
 createOne(data){
     return axios.post(baseUrl + "/pokemons", data)
+    this.getAll()
     
 },
 updateOne(id, data){
