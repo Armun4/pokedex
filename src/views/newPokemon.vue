@@ -48,12 +48,10 @@
         sprite: this.pokemon.sprite,
       };
 
-      pokeServices.createOne(data)
-        .then(response => {
+      pokeServices.createOne(data).then(response => {
           this.pokemon.id = response.data.id;
           console.log(response.data);
           this.submitted = true;
-
           
         })
     

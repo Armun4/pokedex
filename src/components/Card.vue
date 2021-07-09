@@ -12,9 +12,8 @@
         />
       </div>
       <div>
-        <h4 class="nameField" :contenteditable="isEditable">
-          {{ pokemon.name }}
-        </h4>
+        <textarea class="nameField" :readonly="!isEditable" v-model="pokemon.name">
+        </textarea>
       </div>
       <div id="rigthSide">
         <input
@@ -37,7 +36,7 @@
           v-if="!isEditable"
         />
         <button
-          class="btn btn-success"
+          class="doneBtn btn btn-success"
           @click="
             isEditable = false;
             updatePoke(pokemon.id);
@@ -49,23 +48,23 @@
       </div>
     </div>
   </div>
-  <EditForm v-if="isShown" />
+  
 </template>
 
 <script>
-  import EditForm from "../components/EditForm.vue";
+
   import { pokeServices } from "../services/pokeServices.js";
   export default {
     name: "Card",
-    components: { EditForm },
     data() {
       return {
-
-
         isEditable: false,
       };
     },
     props: ["pokemon"],
+    updtated(){
+      updatePoke()
+    },
     preMount() {
       this.deletePoke();
     },
@@ -79,7 +78,7 @@
       updatePoke(id) {
         var data = {
           id: this.pokemon.id,
-          name: document.querySelector(".nameField").textContent,
+          name: this.pokemon.name,
           sprite: this.pokemon.sprite,
           catched: this.pokemon.catched,
         };
@@ -99,7 +98,7 @@
 
   #card {
     margin: 10px 10px 0px 10px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "VT323", sans-serif;
   }
   #rigthSide {
     justify-content: space-around;
@@ -118,5 +117,8 @@
   .lapiz {
     height: 55px;
     margin-right: 40px;
+  }
+  .doneBtn{
+  margin-right:20px;
   }
 </style>

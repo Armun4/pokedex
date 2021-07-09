@@ -1,16 +1,21 @@
 {
   "pokemons": [
     {
-      "id": 2,
-      "name": "Yvysaur",
-      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/2.png?raw=true",
+      "id": 1,
+      "name": "Bulbasaur",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/1.png?raw=true",
       "catched": true
     },
     {
+      "id": 2,
+      "name": "Yvybasaur",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/2.png?raw=true",
+      "catched": false
+    },
+    {
       "id": 3,
-      "name": "Venusaur",
-      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/3.png?raw=true",
-      "cactched": false
+      "name": "Venusaur hshas",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/3.png?raw=true"
     },
     {
       "id": 4,
@@ -20,14 +25,20 @@
     },
     {
       "id": 5,
-      "name": "Charmeleon",
+      "name": "Bulbasaur",
       "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/5.png?raw=true",
-      "cactched": false
+      "catched": true
     },
     {
       "id": 6,
       "name": "Charmander",
       "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/6.png?raw=true",
+      "cactched": false
+    },
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/7.png?raw=true",
       "cactched": false
     },
     {
@@ -40,12 +51,6 @@
       "id": 9,
       "name": "Blastoise",
       "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/9.png?raw=true",
-      "cactched": false
-    },
-    {
-      "name": "Armando",
-      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/108.png?raw=true",
-      "id": 10,
       "cactched": false
     }
   ]
