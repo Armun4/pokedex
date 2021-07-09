@@ -1,19 +1,2 @@
-# pokedex
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Pokedex
+This Project is a Crud Created with Vuejs using axios to consume fake Apis for a Json server
