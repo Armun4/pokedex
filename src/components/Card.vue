@@ -63,7 +63,7 @@
     },
     props: ["pokemon"],
     updtated(){
-      updatePoke()
+      this.updatePoke()
     },
     preMount() {
       this.deletePoke();
