@@ -1,12 +1,30 @@
 <template>
+
+
+
   <div id="nav">
-    
-  <router-view/>
+  <Header/>
+    <router-view  ></router-view>
   </div>
 </template>
 
+<script>
+
+  import Header from '@/components/Header.vue';
+  export default {
+    name: "App",
+    components:{
+      Header
+       },
+ 
+
+  
+    
+  }
+</script>
+
 <style>
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 #app {
   font-family: 'Open Sans', sans-serif, VT323;
   -webkit-font-smoothing: antialiased;
@@ -14,11 +32,15 @@
   text-align: center;
   color: #2c3e50;
   height: 200%;
+  
 }
 
 #nav {
   padding: 30px;
-  background-color: rgb(243, 127, 127) ;
+  background-color: rgb(243, 127, 127);
+  height:100vh;
+  overflow: scroll;
+  text-align:center;
 }
 
 #nav a {

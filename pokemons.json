@@ -1,58 +1,52 @@
 {
   "pokemons": [
     {
-      "id":1 ,
-      "name": "Bulbasaur",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/1.png?raw=true",
-      "cactched": false
-    },
-    {
-      "id":2 ,
+      "id": 2,
       "name": "Yvysaur",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/2.png?raw=true",
-      "cactched": false
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/2.png?raw=true",
+      "catched": true
     },
     {
       "id": 3,
       "name": "Venusaur",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/3.png?raw=true",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/3.png?raw=true",
       "cactched": false
-    }, {
+    },
+    {
       "id": 4,
       "name": "Charmander",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/4.png?raw=true",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/4.png?raw=true",
       "cactched": false
-    }, {
+    },
+    {
       "id": 5,
       "name": "Charmeleon",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/5.png?raw=true",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/5.png?raw=true",
       "cactched": false
-    }, {
+    },
+    {
       "id": 6,
       "name": "Charmander",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/6.png?raw=true",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/6.png?raw=true",
       "cactched": false
-    }, {
-      "id": 7,
-      "name": "Squirtle",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/7.png?raw=true",
-      "cactched": false
-    }, {
-      "id":8 ,
+    },
+    {
+      "id": 8,
       "name": "Wartortle",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/8.png?raw=true",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/8.png?raw=true",
       "cactched": false
-    }, {
+    },
+    {
       "id": 9,
       "name": "Blastoise",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/9.png?raw=true",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/9.png?raw=true",
       "cactched": false
-    }, {
-      "id":10 ,
-      "name": "Metapod",
-      "sprite":"https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/10.png?raw=true",
+    },
+    {
+      "name": "Armando",
+      "sprite": "https://github.com/Armun4/pokedex/blob/main/src/assets/red-blue/108.png?raw=true",
+      "id": 10,
       "cactched": false
     }
-   
   ]
 }
